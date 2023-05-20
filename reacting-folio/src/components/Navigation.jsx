@@ -12,23 +12,23 @@ const Navigation = () => {
   return (
     <nav>
       <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-blue-400 text-white">
-        <ul className="hidden md:flex justify-between">
-          <li>
+        <ul className="hidden md:flex">
+          <li className="w-[75px]">
             <Link to="home" smooth={true} duration={500}>
           Home
           </Link>
           </li>
-          <li>
+          <li className="w-[75px]">
           <Link to="contact" smooth={true} duration={500}>
           Contact
           </Link>
           </li>
-          <li>
+          <li className="w-[75px]">
           <Link to="projects" smooth={true} duration={500}>
           Projects
           </Link>
           </li>
-          <li>
+          <li className="w-[75px]">
           <Link to="about" smooth={true} duration={500}>
           About
           </Link>
@@ -49,19 +49,19 @@ const Navigation = () => {
         </li>
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#3b3a3a]">
               <a className="flex justify-between items center w-full text-white mr-[10px] ml-[20px]"
-                href="/">
+                href="https://github.com/hef9874">
         GitHub <FaGithub size={30} />
         </a>
         </li>
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#ccde28]">
               <a className="flex justify-between items center w-full text-white mr-[10px] ml-[20px]"
-                href="/">
+                href="mailto:hef9874@gmail.com">
         Email <HiOutlineMail size={30} />
         </a>
         </li>
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#ae56f1]">
               <a className="flex justify-between items center w-full text-white mr-[10px] ml-[20px]"
-                href="/">
+                href="../../src/assets/resume.pdf">
         Resume < BsFillPersonLinesFill size={30} />
         </a>
         </li>
