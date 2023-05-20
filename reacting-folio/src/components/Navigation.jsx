@@ -3,6 +3,8 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { Link } from 'react-scroll';
+import Resume from '../assets/resume.pdf';
+
 
 
 const Navigation = () => {
@@ -61,7 +63,7 @@ const Navigation = () => {
         </li>
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#ae56f1]">
               <a className="flex justify-between items center w-full text-white mr-[10px] ml-[20px]"
-                href="../../src/assets/resume.pdf">
+                href={Resume}>
         Resume < BsFillPersonLinesFill size={30} />
         </a>
         </li>

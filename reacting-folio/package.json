@@ -1,5 +1,6 @@
 {
   "name": "reacting-folio",
+  "homepage":"/reacting-folio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
